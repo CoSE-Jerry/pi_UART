@@ -12,4 +12,6 @@ while 1:
     ser.write(counter)
     print(counter)
     time.sleep(1)
+    print(counter)
     counter += 1
+    print(counter)
