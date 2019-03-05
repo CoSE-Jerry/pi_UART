@@ -10,6 +10,6 @@ counter=0
           
       
 while 1:
-    ser.write(str.encode('Write counter: %d \n'%(counter)))
+    ser.write(str.encode("test"))
     time.sleep(1)
     counter += 1
