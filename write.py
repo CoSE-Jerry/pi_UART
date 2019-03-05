@@ -11,5 +11,6 @@ counter=0
       
 while 1:
     ser.write(str.encode("test"))
+    print(counter)
     time.sleep(1)
     counter += 1
